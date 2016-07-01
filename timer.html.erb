@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <form class="timerFormButton" action="timer.html.erb" method="post">
+
+      <input type="submit" name="name" value="Submit">
+
+    </form>
+
+
+    <script type="text/javascript">
+      var d = new Date()
+      //---Writes the clock-----//
+      document.write(d.getHours())
+      document.write("h:")
+      document.write(d.getMinutes() + 1)
+      document.write("m:")
+      document.write(d.getSeconds())
+      document.write("s O'clock")
+      //-----------------------//
+    </script>
+  </body>
+</html>
